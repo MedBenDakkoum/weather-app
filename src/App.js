@@ -68,7 +68,9 @@ class App extends Component {
           {weather && (
             <div className="text-center">
               <h2 className="text-xl font-semibold mb-2">{weather.name}</h2>
-              <p className="text-gray-700">Temperature: {weather.main.temp}C</p>
+              <p className="text-gray-700">
+                Temperature: {weather.main.temp}°C
+              </p>
               <p className="text-gray-700">
                 Weather: {weather.weather[0].description}
               </p>
