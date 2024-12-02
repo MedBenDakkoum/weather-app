@@ -22,7 +22,7 @@ You can view the live demo of this project here:
 
 ## Screenshots
 
-![Weather Dashboard Screenshot](./screenshot.png)  
+![Weather Dashboard Screenshot](./weather-app.png)  
 _(Include any relevant images here to showcase your app)_
 
 ## Getting Started
