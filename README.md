@@ -58,8 +58,8 @@ To run this project locally, follow the steps below:
 
 4. **Set up your OpenWeather API key:**
 
-- Create a .env file in the root of the project.
-- Add your API key:
+- Create a **.env** file in the root of the project.
+- Add your **API key**:
 
 ```REACT_APP_OPENWEATHER_API_KEY=your_api_key
 
