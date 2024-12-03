@@ -44,14 +44,14 @@ To run this project locally, follow the steps below:
 
 2. **Navigate to the project directory:**
 
-   ```cd weather-app
-
+   ```bash
+   cd weather-app
    ```
 
 3. **Install dependencies:**
 
-   ```npm install
-
+   ```bash
+   npm install
    ```
 
 ### Setup OpenWeather API key
@@ -59,23 +59,23 @@ To run this project locally, follow the steps below:
 4. **Set up your OpenWeather API key:**
 
 - Create a **.env** file in the root of the project.
-- Add your **API key**:
+- Add your **API key** :
 
-```REACT_APP_OPENWEATHER_API_KEY=your_api_key
-
-```
+  ```env
+  REACT_APP_OPENWEATHER_API_KEY=your_api_key
+  ```
 
 ### Running the Application
 
 5. **Start the development server:**
 
-   ```npm start
+```bash
+npm start
+```
 
-   ```
+The app will be available at `http://localhost:3000`.
 
-   The app will be available at `http://localhost:3000`.
-
-   ### Building for Production
+### Building for Production
 
 To create an optimized production build, run:
 
