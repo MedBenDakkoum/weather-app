@@ -39,4 +39,96 @@ To run this project locally, follow the steps below:
 
    ```bash
    git clone https://github.com/medbendakkoum/weather-app.git
+
    ```
+
+2. **Navigate to the project directory:**:
+
+   ```cd weather-app
+
+   ```
+
+3. **Install dependencies:**:
+
+   ```npm install
+
+   ```
+
+### Setup OpenWeather API key
+
+4. **Set up your OpenWeather API key:**:
+   . Create a .env file in the root of the project.
+
+. Add your API key:
+
+```REACT_APP_OPENWEATHER_API_KEY=your_api_key
+
+```
+
+### Running the Application
+
+5. **Start the development server:**:
+
+   ```npm start
+
+   ```
+
+   The app will be available at `http://localhost:3000`.
+
+   ### Building for Production
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+The production-ready files will be located in the `build` folder.
+
+## Deployment
+
+This project can be easily deployed using platforms like [Netlify](https://www.netlify.com/) or [GitHub Pages](https://pages.github.com/).
+
+### Deploying to Netlify
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Use the Netlify CLI:
+
+   ```bash
+   npm install -g netlify-cli
+   netlify login
+   netlify init
+   netlify deploy --prod
+   ```
+
+   ### Deploying to GitHub Pages
+
+3. Install the GitHub Pages package:
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+4. Add the following scripts to your `package.json`:
+   ```json
+   "homepage": "https://MedBenDakkoum.github.io/weather-app",
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
+5. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Mohamed Ben Dakkoum**
+
+Feel free to contribute or report issues!
