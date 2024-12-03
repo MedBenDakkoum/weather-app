@@ -42,13 +42,13 @@ To run this project locally, follow the steps below:
 
    ```
 
-2. **Navigate to the project directory:**:
+2. **Navigate to the project directory:**
 
    ```cd weather-app
 
    ```
 
-3. **Install dependencies:**:
+3. **Install dependencies:**
 
    ```npm install
 
@@ -56,7 +56,7 @@ To run this project locally, follow the steps below:
 
 ### Setup OpenWeather API key
 
-4. **Set up your OpenWeather API key:**:
+4. **Set up your OpenWeather API key:**
    . Create a .env file in the root of the project.
 
 . Add your API key:
@@ -67,7 +67,7 @@ To run this project locally, follow the steps below:
 
 ### Running the Application
 
-5. **Start the development server:**:
+5. **Start the development server:**
 
    ```npm start
 
